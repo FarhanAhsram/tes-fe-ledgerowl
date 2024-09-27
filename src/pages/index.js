@@ -45,7 +45,7 @@ import {
   PaginationPrevious,
 } from "@/components/ui/pagination";
 
-export default function UsersPage({ data }) {
+export default function App({ data }) {
   const [currentPage, setCurrentPage] = useState(1);
   const [sortOrder, setSortOrder] = useState("");
   const [searchQuery, setSearchQuery] = useState("");
